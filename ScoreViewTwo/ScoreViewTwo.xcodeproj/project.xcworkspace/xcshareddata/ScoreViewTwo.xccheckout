@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E83544E9-D156-4E80-A839-1602EBB248FA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ScoreViewTwo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CC83610F-9769-4930-80BE-B7FED87994C4</key>
+		<string>https://github.com/uumoss/Frodo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ScoreViewTwo/ScoreViewTwo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CC83610F-9769-4930-80BE-B7FED87994C4</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/uumoss/Frodo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CC83610F-9769-4930-80BE-B7FED87994C4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CC83610F-9769-4930-80BE-B7FED87994C4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DevMountain</string>
+		</dict>
+	</array>
+</dict>
+</plist>

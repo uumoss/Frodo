@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8A867A419C2476B00062662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A867A319C2476B00062662 /* Foundation.framework */; };
+		C8A867A619C2476B00062662 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A867A519C2476B00062662 /* CoreGraphics.framework */; };
+		C8A867A819C2476B00062662 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A867A719C2476B00062662 /* UIKit.framework */; };
+		C8A867AE19C2476B00062662 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8A867AC19C2476B00062662 /* InfoPlist.strings */; };
+		C8A867B019C2476B00062662 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A867AF19C2476B00062662 /* main.m */; };
+		C8A867B419C2476B00062662 /* WMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A867B319C2476B00062662 /* WMAppDelegate.m */; };
+		C8A867B719C2476B00062662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A867B519C2476B00062662 /* Main.storyboard */; };
+		C8A867BA19C2476B00062662 /* WMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A867B919C2476B00062662 /* WMViewController.m */; };
+		C8A867BC19C2476B00062662 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A867BB19C2476B00062662 /* Images.xcassets */; };
+		C8A867C319C2476B00062662 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A867C219C2476B00062662 /* XCTest.framework */; };
+		C8A867C419C2476B00062662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A867A319C2476B00062662 /* Foundation.framework */; };
+		C8A867C519C2476B00062662 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A867A719C2476B00062662 /* UIKit.framework */; };
+		C8A867CD19C2476B00062662 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8A867CB19C2476B00062662 /* InfoPlist.strings */; };
+		C8A867CF19C2476B00062662 /* ScoreViewTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A867CE19C2476B00062662 /* ScoreViewTwoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8A867C619C2476B00062662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A8679819C2476B00062662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A8679F19C2476B00062662;
+			remoteInfo = ScoreViewTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8A867A019C2476B00062662 /* ScoreViewTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreViewTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A867A319C2476B00062662 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8A867A519C2476B00062662 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C8A867A719C2476B00062662 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C8A867AB19C2476B00062662 /* ScoreViewTwo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScoreViewTwo-Info.plist"; sourceTree = "<group>"; };
+		C8A867AD19C2476B00062662 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8A867AF19C2476B00062662 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8A867B119C2476B00062662 /* ScoreViewTwo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScoreViewTwo-Prefix.pch"; sourceTree = "<group>"; };
+		C8A867B219C2476B00062662 /* WMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMAppDelegate.h; sourceTree = "<group>"; };
+		C8A867B319C2476B00062662 /* WMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMAppDelegate.m; sourceTree = "<group>"; };
+		C8A867B619C2476B00062662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8A867B819C2476B00062662 /* WMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMViewController.h; sourceTree = "<group>"; };
+		C8A867B919C2476B00062662 /* WMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMViewController.m; sourceTree = "<group>"; };
+		C8A867BB19C2476B00062662 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C8A867C119C2476B00062662 /* ScoreViewTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreViewTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A867C219C2476B00062662 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C8A867CA19C2476B00062662 /* ScoreViewTwoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScoreViewTwoTests-Info.plist"; sourceTree = "<group>"; };
+		C8A867CC19C2476B00062662 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8A867CE19C2476B00062662 /* ScoreViewTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreViewTwoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8A8679D19C2476B00062662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A867A619C2476B00062662 /* CoreGraphics.framework in Frameworks */,
+				C8A867A819C2476B00062662 /* UIKit.framework in Frameworks */,
+				C8A867A419C2476B00062662 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A867BE19C2476B00062662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A867C319C2476B00062662 /* XCTest.framework in Frameworks */,
+				C8A867C519C2476B00062662 /* UIKit.framework in Frameworks */,
+				C8A867C419C2476B00062662 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8A8679719C2476B00062662 = {
+			isa = PBXGroup;
+			children = (
+				C8A867A919C2476B00062662 /* ScoreViewTwo */,
+				C8A867C819C2476B00062662 /* ScoreViewTwoTests */,
+				C8A867A219C2476B00062662 /* Frameworks */,
+				C8A867A119C2476B00062662 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8A867A119C2476B00062662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8A867A019C2476B00062662 /* ScoreViewTwo.app */,
+				C8A867C119C2476B00062662 /* ScoreViewTwoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8A867A219C2476B00062662 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8A867A319C2476B00062662 /* Foundation.framework */,
+				C8A867A519C2476B00062662 /* CoreGraphics.framework */,
+				C8A867A719C2476B00062662 /* UIKit.framework */,
+				C8A867C219C2476B00062662 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8A867A919C2476B00062662 /* ScoreViewTwo */ = {
+			isa = PBXGroup;
+			children = (
+				C8A867B219C2476B00062662 /* WMAppDelegate.h */,
+				C8A867B319C2476B00062662 /* WMAppDelegate.m */,
+				C8A867B519C2476B00062662 /* Main.storyboard */,
+				C8A867B819C2476B00062662 /* WMViewController.h */,
+				C8A867B919C2476B00062662 /* WMViewController.m */,
+				C8A867BB19C2476B00062662 /* Images.xcassets */,
+				C8A867AA19C2476B00062662 /* Supporting Files */,
+			);
+			path = ScoreViewTwo;
+			sourceTree = "<group>";
+		};
+		C8A867AA19C2476B00062662 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8A867AB19C2476B00062662 /* ScoreViewTwo-Info.plist */,
+				C8A867AC19C2476B00062662 /* InfoPlist.strings */,
+				C8A867AF19C2476B00062662 /* main.m */,
+				C8A867B119C2476B00062662 /* ScoreViewTwo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8A867C819C2476B00062662 /* ScoreViewTwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8A867CE19C2476B00062662 /* ScoreViewTwoTests.m */,
+				C8A867C919C2476B00062662 /* Supporting Files */,
+			);
+			path = ScoreViewTwoTests;
+			sourceTree = "<group>";
+		};
+		C8A867C919C2476B00062662 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8A867CA19C2476B00062662 /* ScoreViewTwoTests-Info.plist */,
+				C8A867CB19C2476B00062662 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8A8679F19C2476B00062662 /* ScoreViewTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A867D219C2476B00062662 /* Build configuration list for PBXNativeTarget "ScoreViewTwo" */;
+			buildPhases = (
+				C8A8679C19C2476B00062662 /* Sources */,
+				C8A8679D19C2476B00062662 /* Frameworks */,
+				C8A8679E19C2476B00062662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoreViewTwo;
+			productName = ScoreViewTwo;
+			productReference = C8A867A019C2476B00062662 /* ScoreViewTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8A867C019C2476B00062662 /* ScoreViewTwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A867D519C2476B00062662 /* Build configuration list for PBXNativeTarget "ScoreViewTwoTests" */;
+			buildPhases = (
+				C8A867BD19C2476B00062662 /* Sources */,
+				C8A867BE19C2476B00062662 /* Frameworks */,
+				C8A867BF19C2476B00062662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8A867C719C2476B00062662 /* PBXTargetDependency */,
+			);
+			name = ScoreViewTwoTests;
+			productName = ScoreViewTwoTests;
+			productReference = C8A867C119C2476B00062662 /* ScoreViewTwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8A8679819C2476B00062662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DevMountain;
+				TargetAttributes = {
+					C8A867C019C2476B00062662 = {
+						TestTargetID = C8A8679F19C2476B00062662;
+					};
+				};
+			};
+			buildConfigurationList = C8A8679B19C2476B00062662 /* Build configuration list for PBXProject "ScoreViewTwo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8A8679719C2476B00062662;
+			productRefGroup = C8A867A119C2476B00062662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8A8679F19C2476B00062662 /* ScoreViewTwo */,
+				C8A867C019C2476B00062662 /* ScoreViewTwoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8A8679E19C2476B00062662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A867BC19C2476B00062662 /* Images.xcassets in Resources */,
+				C8A867AE19C2476B00062662 /* InfoPlist.strings in Resources */,
+				C8A867B719C2476B00062662 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A867BF19C2476B00062662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A867CD19C2476B00062662 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8A8679C19C2476B00062662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A867BA19C2476B00062662 /* WMViewController.m in Sources */,
+				C8A867B419C2476B00062662 /* WMAppDelegate.m in Sources */,
+				C8A867B019C2476B00062662 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A867BD19C2476B00062662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A867CF19C2476B00062662 /* ScoreViewTwoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8A867C719C2476B00062662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8A8679F19C2476B00062662 /* ScoreViewTwo */;
+			targetProxy = C8A867C619C2476B00062662 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8A867AC19C2476B00062662 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8A867AD19C2476B00062662 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C8A867B519C2476B00062662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8A867B619C2476B00062662 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8A867CB19C2476B00062662 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8A867CC19C2476B00062662 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8A867D019C2476B00062662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8A867D119C2476B00062662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8A867D319C2476B00062662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreViewTwo/ScoreViewTwo-Prefix.pch";
+				INFOPLIST_FILE = "ScoreViewTwo/ScoreViewTwo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C8A867D419C2476B00062662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreViewTwo/ScoreViewTwo-Prefix.pch";
+				INFOPLIST_FILE = "ScoreViewTwo/ScoreViewTwo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C8A867D619C2476B00062662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScoreViewTwo.app/ScoreViewTwo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreViewTwo/ScoreViewTwo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScoreViewTwoTests/ScoreViewTwoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C8A867D719C2476B00062662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScoreViewTwo.app/ScoreViewTwo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreViewTwo/ScoreViewTwo-Prefix.pch";
+				INFOPLIST_FILE = "ScoreViewTwoTests/ScoreViewTwoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8A8679B19C2476B00062662 /* Build configuration list for PBXProject "ScoreViewTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A867D019C2476B00062662 /* Debug */,
+				C8A867D119C2476B00062662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A867D219C2476B00062662 /* Build configuration list for PBXNativeTarget "ScoreViewTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A867D319C2476B00062662 /* Debug */,
+				C8A867D419C2476B00062662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8A867D519C2476B00062662 /* Build configuration list for PBXNativeTarget "ScoreViewTwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A867D619C2476B00062662 /* Debug */,
+				C8A867D719C2476B00062662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8A8679819C2476B00062662 /* Project object */;
+}
