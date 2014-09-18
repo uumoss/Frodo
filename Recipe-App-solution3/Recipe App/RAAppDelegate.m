@@ -1,29 +1,32 @@
 //
-//  WMAppDelegate.m
-//  ScoreViewTwo
+//  RAAppDelegate.m
+//  Recipe App
 //
-//  Created by wes mb on 9/11/14.
+//  Created by Joshua Howland on 5/21/14.
 //  Copyright (c) 2014 DevMountain. All rights reserved.
 //
 
-#import "WMAppDelegate.h"
-#import "WMViewController.h"
+#import "RAAppDelegate.h"
+#import "RARecipeViewController.h"
 
-@implementation WMAppDelegate
+@implementation RAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    
-    WMViewController *viewController = [WMViewController new];
-    
-    UINavigationController *navigation = [[UINavigationController alloc]initWithRootViewController:(viewController)];
-    
-    self.window.rootViewController = navigation;
     self.window.backgroundColor = [UIColor whiteColor];
+
+    RARecipeViewController *viewController = [RARecipeViewController new];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+    self.window.rootViewController = navigationController;
+    
+    [self.window makeKeyAndVisible];
     return YES;
+    
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
