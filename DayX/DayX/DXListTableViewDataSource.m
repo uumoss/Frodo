@@ -11,10 +11,13 @@
 
 @implementation DXListTableViewDataSource
 
+
+//registering table view
 - (void)registerTableView:(UITableView *)tableView {
     [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
 }
 
+//makes it so we have only the necessary number of cells in our table view
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [EntryController sharedInstance].entries.count;
 }

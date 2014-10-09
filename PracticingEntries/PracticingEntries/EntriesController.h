@@ -10,4 +10,7 @@
 
 @interface EntriesController : NSObject
 
+@property (nonatomic, strong) NSArray * entries;
+-(void)synchronize;
+
 @end

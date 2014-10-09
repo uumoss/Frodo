@@ -19,6 +19,8 @@
     DXListViewController *viewContorller = [DXListViewController new];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:viewContorller];
     
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

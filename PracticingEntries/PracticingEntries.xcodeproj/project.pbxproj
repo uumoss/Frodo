@@ -14,6 +14,8 @@
 		C80C8E9719CDDBF2008B7742 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80C8E9619CDDBF2008B7742 /* Images.xcassets */; };
 		C80C8E9A19CDDBF2008B7742 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C80C8E9819CDDBF2008B7742 /* LaunchScreen.xib */; };
 		C80C8EA619CDDBF2008B7742 /* PracticingEntriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C80C8EA519CDDBF2008B7742 /* PracticingEntriesTests.m */; };
+		C80C8EB119CDDC04008B7742 /* Entries.m in Sources */ = {isa = PBXBuildFile; fileRef = C80C8EB019CDDC04008B7742 /* Entries.m */; };
+		C80C8EB419CDE2D0008B7742 /* EntriesController.m in Sources */ = {isa = PBXBuildFile; fileRef = C80C8EB319CDE2D0008B7742 /* EntriesController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		C80C8E9F19CDDBF2008B7742 /* PracticingEntriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticingEntriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80C8EA419CDDBF2008B7742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C80C8EA519CDDBF2008B7742 /* PracticingEntriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticingEntriesTests.m; sourceTree = "<group>"; };
+		C80C8EAF19CDDC04008B7742 /* Entries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entries.h; sourceTree = "<group>"; };
+		C80C8EB019CDDC04008B7742 /* Entries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entries.m; sourceTree = "<group>"; };
+		C80C8EB219CDE2D0008B7742 /* EntriesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntriesController.h; sourceTree = "<group>"; };
+		C80C8EB319CDE2D0008B7742 /* EntriesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntriesController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				C80C8E8E19CDDBF2008B7742 /* AppDelegate.m */,
 				C80C8E9019CDDBF2008B7742 /* ViewController.h */,
 				C80C8E9119CDDBF2008B7742 /* ViewController.m */,
+				C80C8EAF19CDDC04008B7742 /* Entries.h */,
+				C80C8EB019CDDC04008B7742 /* Entries.m */,
+				C80C8EB219CDE2D0008B7742 /* EntriesController.h */,
+				C80C8EB319CDE2D0008B7742 /* EntriesController.m */,
 				C80C8E9319CDDBF2008B7742 /* Main.storyboard */,
 				C80C8E9619CDDBF2008B7742 /* Images.xcassets */,
 				C80C8E9819CDDBF2008B7742 /* LaunchScreen.xib */,
@@ -221,7 +231,9 @@
 			files = (
 				C80C8E9219CDDBF2008B7742 /* ViewController.m in Sources */,
 				C80C8E8F19CDDBF2008B7742 /* AppDelegate.m in Sources */,
+				C80C8EB119CDDC04008B7742 /* Entries.m in Sources */,
 				C80C8E8C19CDDBF2008B7742 /* main.m in Sources */,
+				C80C8EB419CDE2D0008B7742 /* EntriesController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

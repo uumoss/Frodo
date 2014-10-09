@@ -23,7 +23,6 @@ static NSString * const entryListKey = @"entryList";
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         sharedInstance = [[EntryController alloc] init];
-        
         [sharedInstance loadFromDefaults];
     });
     return sharedInstance;
@@ -35,9 +34,11 @@ static NSString * const entryListKey = @"entryList";
         return;
     }
     
+    
+    
+    
     NSMutableArray *mutableEntries = [[NSMutableArray alloc] initWithArray:self.entries];
     [mutableEntries addObject:entry];
-    
     self.entries = mutableEntries;
     [self synchronize];
 }
@@ -50,7 +51,6 @@ static NSString * const entryListKey = @"entryList";
     
     NSMutableArray *mutableEntries = self.entries.mutableCopy;
     [mutableEntries removeObject:entry];
-    
     self.entries = mutableEntries;
     [self synchronize];
 
@@ -68,7 +68,6 @@ static NSString * const entryListKey = @"entryList";
         NSInteger index = [mutableEntries indexOfObject:oldEntry];
         [mutableEntries replaceObjectAtIndex:index withObject:newEntry];
     }
-    
     self.entries = mutableEntries;
     [self synchronize];
 
@@ -77,14 +76,12 @@ static NSString * const entryListKey = @"entryList";
 }
 
 - (void)loadFromDefaults {
-    
     NSArray *entryDictionaries = [[NSUserDefaults standardUserDefaults] objectForKey:entryListKey];
     self.entries = entryDictionaries;
     
 }
 
 - (void)synchronize {
-    
     [[NSUserDefaults standardUserDefaults] setObject:self.entries forKey:entryListKey];
     [[NSUserDefaults standardUserDefaults] synchronize];
     

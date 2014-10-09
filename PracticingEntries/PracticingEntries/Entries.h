@@ -10,4 +10,11 @@
 
 @interface Entries : NSObject
 
+@property (nonatomic, strong) const NSString *title;
+@property (nonatomic, strong) const NSString *note;
+@property (nonatomic, strong) const NSDate *timeStamp;
+
+-(NSDictionary *)entryDictionary;
+-(id)initWithDictionary:(NSDictionary *)dictionary;
+
 @end

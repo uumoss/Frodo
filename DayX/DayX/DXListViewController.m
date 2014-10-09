@@ -32,12 +32,9 @@
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(add:)];
     self.navigationItem.rightBarButtonItem = addButton;
-    
     self.dataSource = [DXListTableViewDataSource new];
-    
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
     [self.view addSubview:self.tableView];
-    
     self.tableView.dataSource = self.dataSource;
     self.tableView.delegate = self;
     [self.dataSource registerTableView:self.tableView];

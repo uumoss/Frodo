@@ -10,4 +10,15 @@
 
 @implementation EntriesController
 
+-(void)synchronize {
+    NSMutableArray *dictionaryEntries = [NSMutableArray new];
+    for (_entries in self.entries) {
+        [dictionaryEntries addObject:[entry entryDicionary]];
+    }
+    [[NSUserDefaults standardUserDefaults] setValue:dictionaryEntries forKey:@"array"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    
+}
+
 @end
